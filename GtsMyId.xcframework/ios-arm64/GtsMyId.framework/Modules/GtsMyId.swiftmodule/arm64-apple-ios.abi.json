@@ -1,0 +1,4355 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GtsMyId",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GtsClientDelegate",
+        "printedName": "GtsClientDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onCompletion",
+            "printedName": "onCompletion(result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GtsResult",
+                "printedName": "GtsMyId.GtsResult",
+                "usr": "c:@M@GtsMyId@objc(cs)GtsResult"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GtsMyId@objc(pl)GtsClientDelegate(im)onCompletionWithResult:",
+            "mangledName": "$s7GtsMyId0A14ClientDelegateP12onCompletion6resultyAA0A6ResultC_tF",
+            "moduleName": "GtsMyId",
+            "genericSig": "<τ_0_0 where τ_0_0 : GtsMyId.GtsClientDelegate>",
+            "sugared_genericSig": "<Self where Self : GtsMyId.GtsClientDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onFailure",
+            "printedName": "onFailure(exception:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GtsException",
+                "printedName": "GtsMyId.GtsException",
+                "usr": "c:@M@GtsMyId@objc(cs)GtsException"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GtsMyId@objc(pl)GtsClientDelegate(im)onFailureWithException:",
+            "mangledName": "$s7GtsMyId0A14ClientDelegateP9onFailure9exceptionyAA0A9ExceptionC_tF",
+            "moduleName": "GtsMyId",
+            "genericSig": "<τ_0_0 where τ_0_0 : GtsMyId.GtsClientDelegate>",
+            "sugared_genericSig": "<Self where Self : GtsMyId.GtsClientDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCancelled",
+            "printedName": "onCancelled()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GtsMyId@objc(pl)GtsClientDelegate(im)onCancelled",
+            "mangledName": "$s7GtsMyId0A14ClientDelegateP11onCancelledyyF",
+            "moduleName": "GtsMyId",
+            "genericSig": "<τ_0_0 where τ_0_0 : GtsMyId.GtsClientDelegate>",
+            "sugared_genericSig": "<Self where Self : GtsMyId.GtsClientDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@GtsMyId@objc(pl)GtsClientDelegate",
+        "mangledName": "$s7GtsMyId0A14ClientDelegateP",
+        "moduleName": "GtsMyId",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GtsMyId",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GtsMyId",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GtsMyId",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GtsConfig",
+        "printedName": "GtsConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "locale",
+            "printedName": "locale",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GtsLocale",
+                "printedName": "GtsMyId.GtsLocale",
+                "usr": "c:@M@GtsMyId@E@GtsLocale"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GtsMyId@objc(cs)GtsConfig(py)locale",
+            "mangledName": "$s7GtsMyId0A6ConfigC6localeAA0A6LocaleOvp",
+            "moduleName": "GtsMyId",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GtsLocale",
+                    "printedName": "GtsMyId.GtsLocale",
+                    "usr": "c:@M@GtsMyId@E@GtsLocale"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GtsMyId@objc(cs)GtsConfig(im)locale",
+                "mangledName": "$s7GtsMyId0A6ConfigC6localeAA0A6LocaleOvg",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GtsLocale",
+                    "printedName": "GtsMyId.GtsLocale",
+                    "usr": "c:@M@GtsMyId@E@GtsLocale"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GtsMyId@objc(cs)GtsConfig(im)setLocale:",
+                "mangledName": "$s7GtsMyId0A6ConfigC6localeAA0A6LocaleOvs",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7GtsMyId0A6ConfigC6localeAA0A6LocaleOvM",
+                "mangledName": "$s7GtsMyId0A6ConfigC6localeAA0A6LocaleOvM",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cameraSelector",
+            "printedName": "cameraSelector",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GtsCameraSelector",
+                "printedName": "GtsMyId.GtsCameraSelector",
+                "usr": "c:@M@GtsMyId@E@GtsCameraSelector"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GtsMyId@objc(cs)GtsConfig(py)cameraSelector",
+            "mangledName": "$s7GtsMyId0A6ConfigC14cameraSelectorAA0a6CameraF0Ovp",
+            "moduleName": "GtsMyId",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GtsCameraSelector",
+                    "printedName": "GtsMyId.GtsCameraSelector",
+                    "usr": "c:@M@GtsMyId@E@GtsCameraSelector"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GtsMyId@objc(cs)GtsConfig(im)cameraSelector",
+                "mangledName": "$s7GtsMyId0A6ConfigC14cameraSelectorAA0a6CameraF0Ovg",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GtsCameraSelector",
+                    "printedName": "GtsMyId.GtsCameraSelector",
+                    "usr": "c:@M@GtsMyId@E@GtsCameraSelector"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GtsMyId@objc(cs)GtsConfig(im)setCameraSelector:",
+                "mangledName": "$s7GtsMyId0A6ConfigC14cameraSelectorAA0a6CameraF0Ovs",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7GtsMyId0A6ConfigC14cameraSelectorAA0a6CameraF0OvM",
+                "mangledName": "$s7GtsMyId0A6ConfigC14cameraSelectorAA0a6CameraF0OvM",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "presentationStyle",
+            "printedName": "presentationStyle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GtsPresentationStyle",
+                "printedName": "GtsMyId.GtsPresentationStyle",
+                "usr": "c:@M@GtsMyId@E@GtsPresentationStyle"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GtsMyId@objc(cs)GtsConfig(py)presentationStyle",
+            "mangledName": "$s7GtsMyId0A6ConfigC17presentationStyleAA0a12PresentationF0Ovp",
+            "moduleName": "GtsMyId",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GtsPresentationStyle",
+                    "printedName": "GtsMyId.GtsPresentationStyle",
+                    "usr": "c:@M@GtsMyId@E@GtsPresentationStyle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GtsMyId@objc(cs)GtsConfig(im)presentationStyle",
+                "mangledName": "$s7GtsMyId0A6ConfigC17presentationStyleAA0a12PresentationF0Ovg",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GtsPresentationStyle",
+                    "printedName": "GtsMyId.GtsPresentationStyle",
+                    "usr": "c:@M@GtsMyId@E@GtsPresentationStyle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GtsMyId@objc(cs)GtsConfig(im)setPresentationStyle:",
+                "mangledName": "$s7GtsMyId0A6ConfigC17presentationStyleAA0a12PresentationF0Ovs",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7GtsMyId0A6ConfigC17presentationStyleAA0a12PresentationF0OvM",
+                "mangledName": "$s7GtsMyId0A6ConfigC17presentationStyleAA0a12PresentationF0OvM",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appearance",
+            "printedName": "appearance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GtsMyId.GtsAppearance?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GtsAppearance",
+                    "printedName": "GtsMyId.GtsAppearance",
+                    "usr": "c:@M@GtsMyId@objc(cs)GtsAppearance"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GtsMyId@objc(cs)GtsConfig(py)appearance",
+            "mangledName": "$s7GtsMyId0A6ConfigC10appearanceAA0A10AppearanceCSgvp",
+            "moduleName": "GtsMyId",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GtsMyId.GtsAppearance?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GtsAppearance",
+                        "printedName": "GtsMyId.GtsAppearance",
+                        "usr": "c:@M@GtsMyId@objc(cs)GtsAppearance"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GtsMyId@objc(cs)GtsConfig(im)appearance",
+                "mangledName": "$s7GtsMyId0A6ConfigC10appearanceAA0A10AppearanceCSgvg",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GtsMyId.GtsAppearance?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GtsAppearance",
+                        "printedName": "GtsMyId.GtsAppearance",
+                        "usr": "c:@M@GtsMyId@objc(cs)GtsAppearance"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GtsMyId@objc(cs)GtsConfig(im)setAppearance:",
+                "mangledName": "$s7GtsMyId0A6ConfigC10appearanceAA0A10AppearanceCSgvs",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7GtsMyId0A6ConfigC10appearanceAA0A10AppearanceCSgvM",
+                "mangledName": "$s7GtsMyId0A6ConfigC10appearanceAA0A10AppearanceCSgvM",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GtsConfig",
+                "printedName": "GtsMyId.GtsConfig",
+                "usr": "c:@M@GtsMyId@objc(cs)GtsConfig"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@GtsMyId@objc(cs)GtsConfig(im)init",
+            "mangledName": "$s7GtsMyId0A6ConfigCACycfc",
+            "moduleName": "GtsMyId",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@GtsMyId@objc(cs)GtsConfig",
+        "mangledName": "$s7GtsMyId0A6ConfigC",
+        "moduleName": "GtsMyId",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GtsMyId",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GtsCameraSelector",
+        "printedName": "GtsCameraSelector",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "Front",
+            "printedName": "Front",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GtsMyId.GtsCameraSelector.Type) -> GtsMyId.GtsCameraSelector",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GtsCameraSelector",
+                    "printedName": "GtsMyId.GtsCameraSelector",
+                    "usr": "c:@M@GtsMyId@E@GtsCameraSelector"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GtsMyId.GtsCameraSelector.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GtsCameraSelector",
+                        "printedName": "GtsMyId.GtsCameraSelector",
+                        "usr": "c:@M@GtsMyId@E@GtsCameraSelector"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@GtsMyId@E@GtsCameraSelector@GtsCameraSelectorFront",
+            "mangledName": "$s7GtsMyId0A14CameraSelectorO5FrontyA2CmF",
+            "moduleName": "GtsMyId",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "Back",
+            "printedName": "Back",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GtsMyId.GtsCameraSelector.Type) -> GtsMyId.GtsCameraSelector",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GtsCameraSelector",
+                    "printedName": "GtsMyId.GtsCameraSelector",
+                    "usr": "c:@M@GtsMyId@E@GtsCameraSelector"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GtsMyId.GtsCameraSelector.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GtsCameraSelector",
+                        "printedName": "GtsMyId.GtsCameraSelector",
+                        "usr": "c:@M@GtsMyId@E@GtsCameraSelector"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@GtsMyId@E@GtsCameraSelector@GtsCameraSelectorBack",
+            "mangledName": "$s7GtsMyId0A14CameraSelectorO4BackyA2CmF",
+            "moduleName": "GtsMyId",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GtsMyId.GtsCameraSelector?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GtsCameraSelector",
+                    "printedName": "GtsMyId.GtsCameraSelector",
+                    "usr": "c:@M@GtsMyId@E@GtsCameraSelector"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7GtsMyId0A14CameraSelectorO8rawValueACSgSi_tcfc",
+            "mangledName": "$s7GtsMyId0A14CameraSelectorO8rawValueACSgSi_tcfc",
+            "moduleName": "GtsMyId",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7GtsMyId0A14CameraSelectorO8rawValueSivp",
+            "mangledName": "$s7GtsMyId0A14CameraSelectorO8rawValueSivp",
+            "moduleName": "GtsMyId",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7GtsMyId0A14CameraSelectorO8rawValueSivg",
+                "mangledName": "$s7GtsMyId0A14CameraSelectorO8rawValueSivg",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@GtsMyId@E@GtsCameraSelector",
+        "mangledName": "$s7GtsMyId0A14CameraSelectorO",
+        "moduleName": "GtsMyId",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GtsMyId",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GtsMyId",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GtsMyId"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoSwift",
+        "printedName": "CryptoSwift",
+        "declKind": "Import",
+        "moduleName": "GtsMyId"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GtsMyId",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "GtsMyId"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreImage.CIFilterBuiltins",
+        "printedName": "CoreImage.CIFilterBuiltins",
+        "declKind": "Import",
+        "moduleName": "GtsMyId"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "GtsMyId"
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "GtsMyId"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoSwift",
+        "printedName": "CryptoSwift",
+        "declKind": "Import",
+        "moduleName": "GtsMyId"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GtsMyId",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GtsException",
+        "printedName": "GtsException",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GtsMyId@objc(cs)GtsException(py)message",
+            "mangledName": "$s7GtsMyId0A9ExceptionC7messageSSSgvp",
+            "moduleName": "GtsMyId",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GtsMyId@objc(cs)GtsException(im)message",
+                "mangledName": "$s7GtsMyId0A9ExceptionC7messageSSSgvg",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GtsMyId@objc(cs)GtsException(im)setMessage:",
+                "mangledName": "$s7GtsMyId0A9ExceptionC7messageSSSgvs",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7GtsMyId0A9ExceptionC7messageSSSgvM",
+                "mangledName": "$s7GtsMyId0A9ExceptionC7messageSSSgvM",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GtsMyId@objc(cs)GtsException(py)code",
+            "mangledName": "$s7GtsMyId0A9ExceptionC4codeSSSgvp",
+            "moduleName": "GtsMyId",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GtsMyId@objc(cs)GtsException(im)code",
+                "mangledName": "$s7GtsMyId0A9ExceptionC4codeSSSgvg",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GtsMyId@objc(cs)GtsException(im)setCode:",
+                "mangledName": "$s7GtsMyId0A9ExceptionC4codeSSSgvs",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7GtsMyId0A9ExceptionC4codeSSSgvM",
+                "mangledName": "$s7GtsMyId0A9ExceptionC4codeSSSgvM",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GtsException",
+                "printedName": "GtsMyId.GtsException",
+                "usr": "c:@M@GtsMyId@objc(cs)GtsException"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@GtsMyId@objc(cs)GtsException(im)init",
+            "mangledName": "$s7GtsMyId0A9ExceptionCACycfc",
+            "moduleName": "GtsMyId",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@GtsMyId@objc(cs)GtsException",
+        "mangledName": "$s7GtsMyId0A9ExceptionC",
+        "moduleName": "GtsMyId",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GtsMyId",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GtsMyId",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GtsMyId",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GtsResult",
+        "printedName": "GtsResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "image",
+            "printedName": "image",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GtsMyId@objc(cs)GtsResult(py)image",
+            "mangledName": "$s7GtsMyId0A6ResultC5imageSo7UIImageCSgvp",
+            "moduleName": "GtsMyId",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GtsMyId@objc(cs)GtsResult(im)image",
+                "mangledName": "$s7GtsMyId0A6ResultC5imageSo7UIImageCSgvg",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GtsMyId@objc(cs)GtsResult(im)setImage:",
+                "mangledName": "$s7GtsMyId0A6ResultC5imageSo7UIImageCSgvs",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7GtsMyId0A6ResultC5imageSo7UIImageCSgvM",
+                "mangledName": "$s7GtsMyId0A6ResultC5imageSo7UIImageCSgvM",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "faceData",
+            "printedName": "faceData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GtsMyId@objc(cs)GtsResult(py)faceData",
+            "mangledName": "$s7GtsMyId0A6ResultC8faceDataSSSgvp",
+            "moduleName": "GtsMyId",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GtsMyId@objc(cs)GtsResult(im)faceData",
+                "mangledName": "$s7GtsMyId0A6ResultC8faceDataSSSgvg",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GtsMyId@objc(cs)GtsResult(im)setFaceData:",
+                "mangledName": "$s7GtsMyId0A6ResultC8faceDataSSSgvs",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7GtsMyId0A6ResultC8faceDataSSSgvM",
+                "mangledName": "$s7GtsMyId0A6ResultC8faceDataSSSgvM",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GtsResult",
+                "printedName": "GtsMyId.GtsResult",
+                "usr": "c:@M@GtsMyId@objc(cs)GtsResult"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@GtsMyId@objc(cs)GtsResult(im)init",
+            "mangledName": "$s7GtsMyId0A6ResultCACycfc",
+            "moduleName": "GtsMyId",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@GtsMyId@objc(cs)GtsResult",
+        "mangledName": "$s7GtsMyId0A6ResultC",
+        "moduleName": "GtsMyId",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GtsMyId",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GtsMyId"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GtsClient",
+        "printedName": "GtsClient",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(withConfig:withDelegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GtsConfig",
+                "printedName": "GtsMyId.GtsConfig",
+                "usr": "c:@M@GtsMyId@objc(cs)GtsConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GtsClientDelegate",
+                "printedName": "GtsMyId.GtsClientDelegate",
+                "usr": "c:@M@GtsMyId@objc(pl)GtsClientDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GtsMyId@objc(cs)GtsClient(cm)startWithConfig:withDelegate:",
+            "mangledName": "$s7GtsMyId0A6ClientC5start10withConfig0F8DelegateyAA0aG0C_AA0adH0_ptFZ",
+            "moduleName": "GtsMyId",
+            "static": true,
+            "objc_name": "startWithConfig:withDelegate:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "run",
+            "printedName": "run(withConfig:withDelegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GtsConfig",
+                "printedName": "GtsMyId.GtsConfig",
+                "usr": "c:@M@GtsMyId@objc(cs)GtsConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GtsClientDelegate",
+                "printedName": "GtsMyId.GtsClientDelegate",
+                "usr": "c:@M@GtsMyId@objc(pl)GtsClientDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GtsMyId@objc(cs)GtsClient(cm)runWithConfig:withDelegate:",
+            "mangledName": "$s7GtsMyId0A6ClientC3run10withConfig0F8DelegateSo16UIViewControllerCAA0aG0C_AA0adH0_ptFZ",
+            "moduleName": "GtsMyId",
+            "static": true,
+            "objc_name": "runWithConfig:withDelegate:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GtsClient",
+                "printedName": "GtsMyId.GtsClient",
+                "usr": "c:@M@GtsMyId@objc(cs)GtsClient"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@GtsMyId@objc(cs)GtsClient(im)init",
+            "mangledName": "$s7GtsMyId0A6ClientCACycfc",
+            "moduleName": "GtsMyId",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@GtsMyId@objc(cs)GtsClient",
+        "mangledName": "$s7GtsMyId0A6ClientC",
+        "moduleName": "GtsMyId",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GtsMyId",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GtsMyId",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GtsLocale",
+        "printedName": "GtsLocale",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "Kyrgyz",
+            "printedName": "Kyrgyz",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GtsMyId.GtsLocale.Type) -> GtsMyId.GtsLocale",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GtsLocale",
+                    "printedName": "GtsMyId.GtsLocale",
+                    "usr": "c:@M@GtsMyId@E@GtsLocale"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GtsMyId.GtsLocale.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GtsLocale",
+                        "printedName": "GtsMyId.GtsLocale",
+                        "usr": "c:@M@GtsMyId@E@GtsLocale"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@GtsMyId@E@GtsLocale@GtsLocaleKyrgyz",
+            "mangledName": "$s7GtsMyId0A6LocaleO6KyrgyzyA2CmF",
+            "moduleName": "GtsMyId",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "English",
+            "printedName": "English",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GtsMyId.GtsLocale.Type) -> GtsMyId.GtsLocale",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GtsLocale",
+                    "printedName": "GtsMyId.GtsLocale",
+                    "usr": "c:@M@GtsMyId@E@GtsLocale"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GtsMyId.GtsLocale.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GtsLocale",
+                        "printedName": "GtsMyId.GtsLocale",
+                        "usr": "c:@M@GtsMyId@E@GtsLocale"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@GtsMyId@E@GtsLocale@GtsLocaleEnglish",
+            "mangledName": "$s7GtsMyId0A6LocaleO7EnglishyA2CmF",
+            "moduleName": "GtsMyId",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "Russian",
+            "printedName": "Russian",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GtsMyId.GtsLocale.Type) -> GtsMyId.GtsLocale",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GtsLocale",
+                    "printedName": "GtsMyId.GtsLocale",
+                    "usr": "c:@M@GtsMyId@E@GtsLocale"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GtsMyId.GtsLocale.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GtsLocale",
+                        "printedName": "GtsMyId.GtsLocale",
+                        "usr": "c:@M@GtsMyId@E@GtsLocale"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@GtsMyId@E@GtsLocale@GtsLocaleRussian",
+            "mangledName": "$s7GtsMyId0A6LocaleO7RussianyA2CmF",
+            "moduleName": "GtsMyId",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GtsMyId.GtsLocale?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GtsLocale",
+                    "printedName": "GtsMyId.GtsLocale",
+                    "usr": "c:@M@GtsMyId@E@GtsLocale"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7GtsMyId0A6LocaleO8rawValueACSgSi_tcfc",
+            "mangledName": "$s7GtsMyId0A6LocaleO8rawValueACSgSi_tcfc",
+            "moduleName": "GtsMyId",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7GtsMyId0A6LocaleO8rawValueSivp",
+            "mangledName": "$s7GtsMyId0A6LocaleO8rawValueSivp",
+            "moduleName": "GtsMyId",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7GtsMyId0A6LocaleO8rawValueSivg",
+                "mangledName": "$s7GtsMyId0A6LocaleO8rawValueSivg",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@GtsMyId@E@GtsLocale",
+        "mangledName": "$s7GtsMyId0A6LocaleO",
+        "moduleName": "GtsMyId",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GtsMyId",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "GtsMyId"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GtsMyId",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GtsMyId",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GtsPresentationStyle",
+        "printedName": "GtsPresentationStyle",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "Full",
+            "printedName": "Full",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GtsMyId.GtsPresentationStyle.Type) -> GtsMyId.GtsPresentationStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GtsPresentationStyle",
+                    "printedName": "GtsMyId.GtsPresentationStyle",
+                    "usr": "c:@M@GtsMyId@E@GtsPresentationStyle"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GtsMyId.GtsPresentationStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GtsPresentationStyle",
+                        "printedName": "GtsMyId.GtsPresentationStyle",
+                        "usr": "c:@M@GtsMyId@E@GtsPresentationStyle"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@GtsMyId@E@GtsPresentationStyle@GtsPresentationStyleFull",
+            "mangledName": "$s7GtsMyId0A17PresentationStyleO4FullyA2CmF",
+            "moduleName": "GtsMyId",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "Sheet",
+            "printedName": "Sheet",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GtsMyId.GtsPresentationStyle.Type) -> GtsMyId.GtsPresentationStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GtsPresentationStyle",
+                    "printedName": "GtsMyId.GtsPresentationStyle",
+                    "usr": "c:@M@GtsMyId@E@GtsPresentationStyle"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GtsMyId.GtsPresentationStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GtsPresentationStyle",
+                        "printedName": "GtsMyId.GtsPresentationStyle",
+                        "usr": "c:@M@GtsMyId@E@GtsPresentationStyle"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@GtsMyId@E@GtsPresentationStyle@GtsPresentationStyleSheet",
+            "mangledName": "$s7GtsMyId0A17PresentationStyleO5SheetyA2CmF",
+            "moduleName": "GtsMyId",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GtsMyId.GtsPresentationStyle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GtsPresentationStyle",
+                    "printedName": "GtsMyId.GtsPresentationStyle",
+                    "usr": "c:@M@GtsMyId@E@GtsPresentationStyle"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7GtsMyId0A17PresentationStyleO8rawValueACSgSi_tcfc",
+            "mangledName": "$s7GtsMyId0A17PresentationStyleO8rawValueACSgSi_tcfc",
+            "moduleName": "GtsMyId",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7GtsMyId0A17PresentationStyleO8rawValueSivp",
+            "mangledName": "$s7GtsMyId0A17PresentationStyleO8rawValueSivp",
+            "moduleName": "GtsMyId",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7GtsMyId0A17PresentationStyleO8rawValueSivg",
+                "mangledName": "$s7GtsMyId0A17PresentationStyleO8rawValueSivg",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@GtsMyId@E@GtsPresentationStyle",
+        "mangledName": "$s7GtsMyId0A17PresentationStyleO",
+        "moduleName": "GtsMyId",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GtsMyId",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "GtsMyId"
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "GtsMyId"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreVideo",
+        "printedName": "CoreVideo",
+        "declKind": "Import",
+        "moduleName": "GtsMyId"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GtsMyId",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GtsMyId"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GtsAppearance",
+        "printedName": "GtsAppearance",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "primaryColor",
+            "printedName": "primaryColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GtsMyId@objc(cs)GtsAppearance(py)primaryColor",
+            "mangledName": "$s7GtsMyId0A10AppearanceC12primaryColorSo7UIColorCSgvp",
+            "moduleName": "GtsMyId",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GtsMyId@objc(cs)GtsAppearance(im)primaryColor",
+                "mangledName": "$s7GtsMyId0A10AppearanceC12primaryColorSo7UIColorCSgvg",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GtsMyId@objc(cs)GtsAppearance(im)setPrimaryColor:",
+                "mangledName": "$s7GtsMyId0A10AppearanceC12primaryColorSo7UIColorCSgvs",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7GtsMyId0A10AppearanceC12primaryColorSo7UIColorCSgvM",
+                "mangledName": "$s7GtsMyId0A10AppearanceC12primaryColorSo7UIColorCSgvM",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "successColor",
+            "printedName": "successColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GtsMyId@objc(cs)GtsAppearance(py)successColor",
+            "mangledName": "$s7GtsMyId0A10AppearanceC12successColorSo7UIColorCSgvp",
+            "moduleName": "GtsMyId",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GtsMyId@objc(cs)GtsAppearance(im)successColor",
+                "mangledName": "$s7GtsMyId0A10AppearanceC12successColorSo7UIColorCSgvg",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GtsMyId@objc(cs)GtsAppearance(im)setSuccessColor:",
+                "mangledName": "$s7GtsMyId0A10AppearanceC12successColorSo7UIColorCSgvs",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7GtsMyId0A10AppearanceC12successColorSo7UIColorCSgvM",
+                "mangledName": "$s7GtsMyId0A10AppearanceC12successColorSo7UIColorCSgvM",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorColor",
+            "printedName": "errorColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GtsMyId@objc(cs)GtsAppearance(py)errorColor",
+            "mangledName": "$s7GtsMyId0A10AppearanceC10errorColorSo7UIColorCSgvp",
+            "moduleName": "GtsMyId",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GtsMyId@objc(cs)GtsAppearance(im)errorColor",
+                "mangledName": "$s7GtsMyId0A10AppearanceC10errorColorSo7UIColorCSgvg",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GtsMyId@objc(cs)GtsAppearance(im)setErrorColor:",
+                "mangledName": "$s7GtsMyId0A10AppearanceC10errorColorSo7UIColorCSgvs",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7GtsMyId0A10AppearanceC10errorColorSo7UIColorCSgvM",
+                "mangledName": "$s7GtsMyId0A10AppearanceC10errorColorSo7UIColorCSgvM",
+                "moduleName": "GtsMyId",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GtsAppearance",
+                "printedName": "GtsMyId.GtsAppearance",
+                "usr": "c:@M@GtsMyId@objc(cs)GtsAppearance"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@GtsMyId@objc(cs)GtsAppearance(im)init",
+            "mangledName": "$s7GtsMyId0A10AppearanceCACycfc",
+            "moduleName": "GtsMyId",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@GtsMyId@objc(cs)GtsAppearance",
+        "mangledName": "$s7GtsMyId0A10AppearanceC",
+        "moduleName": "GtsMyId",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GtsMyId",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GtsMyId"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GtsMyId"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "GtsMyId"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "GtsMyId"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 129,
+      "length": 9,
+      "value": "\"#8F00FF\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 178,
+      "length": 9,
+      "value": "\"#65C466\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 225,
+      "length": 9,
+      "value": "\"#FF0000\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 318,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 378,
+      "length": 3,
+      "value": "\"#\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 445,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 531,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 631,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 733,
+      "length": 8,
+      "value": "0xff0000"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 746,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 752,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 801,
+      "length": 8,
+      "value": "0x00ff00"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 814,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 819,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 867,
+      "length": 8,
+      "value": "0x0000ff"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 879,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Base\/BaseScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 268,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Base\/BaseScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 543,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Base\/BaseScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 687,
+      "length": 15,
+      "value": "\"gts_icon_back\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Base\/BaseScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1020,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Base\/BaseScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1189,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Base\/BaseScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1371,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Base\/BaseScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1525,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Capture\/Model\/GtsCameraSelector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 147,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Capture\/Model\/GtsCameraSelector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 158,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Capture\/Model\/GtsCameraSelector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 147,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Capture\/Model\/GtsCameraSelector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 158,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Capture\/Core\/GtsDefaults.swift",
+      "kind": "FloatLiteral",
+      "offset": 338,
+      "length": 4,
+      "value": "20.0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Capture\/Core\/GtsDefaults.swift",
+      "kind": "FloatLiteral",
+      "offset": 373,
+      "length": 4,
+      "value": "25.0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Capture\/Core\/GtsDefaults.swift",
+      "kind": "FloatLiteral",
+      "offset": 406,
+      "length": 4,
+      "value": "20.0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Core\/Extensions\/String.swift",
+      "kind": "IntegerLiteral",
+      "offset": 562,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 401,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 696,
+      "length": 24,
+      "value": "\"Image Processing Queue\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "Array",
+      "offset": 773,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 856,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 980,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "FloatLiteral",
+      "offset": 1442,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 2123,
+      "length": 42,
+      "value": "\"UIDeviceOrientationDidChangeNotification\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 4364,
+      "length": 11,
+      "value": "\"face_data\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 4411,
+      "length": 7,
+      "value": "\"width\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 4451,
+      "length": 8,
+      "value": "\"height\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "Array",
+      "offset": 4638,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 5330,
+      "length": 29,
+      "value": "\"Error creating Face data: 1\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 5464,
+      "length": 36,
+      "value": "\"Error creating Face data: \""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 5499,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 5602,
+      "length": 29,
+      "value": "\"Error creating Face data: 2\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 5699,
+      "length": 29,
+      "value": "\"Error creating Face data: 3\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5932,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 6189,
+      "length": 23,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 6211,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6349,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6389,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6575,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6602,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "Array",
+      "offset": 6893,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7209,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7245,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7338,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7817,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7858,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7897,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7955,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "FloatLiteral",
+      "offset": 8084,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8108,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8159,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8230,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8268,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8579,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8633,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8674,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8888,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 9034,
+      "length": 16,
+      "value": "\"gts_icon_check\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9169,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9633,
+      "length": 2,
+      "value": "90"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10249,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10317,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10386,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10576,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10704,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10743,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10978,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11151,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11205,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11246,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/StringRes.swift",
+      "kind": "StringLiteral",
+      "offset": 230,
+      "length": 22,
+      "value": "\"Camera access denied\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/StringRes.swift",
+      "kind": "StringLiteral",
+      "offset": 295,
+      "length": 47,
+      "value": "\"Доступ к камере запрещен\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/StringRes.swift",
+      "kind": "StringLiteral",
+      "offset": 379,
+      "length": 57,
+      "value": "\"Камерага кирүүгө тыюу салынды\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/StringRes.swift",
+      "kind": "StringLiteral",
+      "offset": 588,
+      "length": 25,
+      "value": "\"Keep your head straight\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/StringRes.swift",
+      "kind": "StringLiteral",
+      "offset": 656,
+      "length": 40,
+      "value": "\"Держите голову прямо\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/StringRes.swift",
+      "kind": "StringLiteral",
+      "offset": 733,
+      "length": 44,
+      "value": "\"Башыңызды түз кармаңыз\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/StringRes.swift",
+      "kind": "StringLiteral",
+      "offset": 927,
+      "length": 15,
+      "value": "\"Keep straight\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/StringRes.swift",
+      "kind": "StringLiteral",
+      "offset": 985,
+      "length": 31,
+      "value": "\"Держитесь ровно\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/StringRes.swift",
+      "kind": "StringLiteral",
+      "offset": 1053,
+      "length": 15,
+      "value": "\"Түз тур\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/StringRes.swift",
+      "kind": "StringLiteral",
+      "offset": 1214,
+      "length": 41,
+      "value": "\"Make sure your face is inside the frame\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/StringRes.swift",
+      "kind": "StringLiteral",
+      "offset": 1298,
+      "length": 79,
+      "value": "\"Убедитесь, что ваше лицо находится в рамке\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/StringRes.swift",
+      "kind": "StringLiteral",
+      "offset": 1414,
+      "length": 82,
+      "value": "\"Жүзүңүз алкактын ичинде турганына ынаныңыз\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/StringRes.swift",
+      "kind": "StringLiteral",
+      "offset": 1642,
+      "length": 23,
+      "value": "\"Move away from camera\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/StringRes.swift",
+      "kind": "StringLiteral",
+      "offset": 1708,
+      "length": 31,
+      "value": "\"Отойдите дальше\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/StringRes.swift",
+      "kind": "StringLiteral",
+      "offset": 1776,
+      "length": 27,
+      "value": "\"Артка жылыңыз\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/StringRes.swift",
+      "kind": "StringLiteral",
+      "offset": 1950,
+      "length": 17,
+      "value": "\"You are too far\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/StringRes.swift",
+      "kind": "StringLiteral",
+      "offset": 2010,
+      "length": 34,
+      "value": "\"Вы слишком далеко\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/StringRes.swift",
+      "kind": "StringLiteral",
+      "offset": 2081,
+      "length": 39,
+      "value": "\"Сиз өтө алыс турасыз\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/StringRes.swift",
+      "kind": "StringLiteral",
+      "offset": 2268,
+      "length": 15,
+      "value": "\"Sending photo\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/StringRes.swift",
+      "kind": "StringLiteral",
+      "offset": 2326,
+      "length": 27,
+      "value": "\"Отправка фото\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Resources\/StringRes.swift",
+      "kind": "StringLiteral",
+      "offset": 2390,
+      "length": 27,
+      "value": "\"Сүрөт жөнөтүу\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Core\/Extensions\/UIImage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 127,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Core\/Extensions\/UIImage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 227,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Capture\/GtsClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1132,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Capture\/GtsClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1316,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Capture\/GtsClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1435,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Capture\/GtsClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1789,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Capture\/GtsClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2702,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Core\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 123,
+      "length": 34,
+      "value": "\"xhYhXuY@q$XzKa2q!w?5Zu#WqVFdZB+v\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Core\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 178,
+      "length": 18,
+      "value": "\"bbC2H19lkVbQDfak\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Capture\/Model\/GtsLocale.swift",
+      "kind": "IntegerLiteral",
+      "offset": 132,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Capture\/Model\/GtsLocale.swift",
+      "kind": "IntegerLiteral",
+      "offset": 143,
+      "length": 7,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Capture\/Model\/GtsLocale.swift",
+      "kind": "IntegerLiteral",
+      "offset": 160,
+      "length": 7,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Capture\/Model\/GtsLocale.swift",
+      "kind": "IntegerLiteral",
+      "offset": 132,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Capture\/Model\/GtsLocale.swift",
+      "kind": "IntegerLiteral",
+      "offset": 143,
+      "length": 7,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Capture\/Model\/GtsLocale.swift",
+      "kind": "IntegerLiteral",
+      "offset": 160,
+      "length": 7,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Capture\/Core\/GtsOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 1020,
+      "length": 28,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Capture\/Core\/GtsOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 1047,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Capture\/Model\/GtsPresentationStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 152,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Capture\/Model\/GtsPresentationStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 163,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Capture\/Model\/GtsPresentationStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 152,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Capture\/Model\/GtsPresentationStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 163,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "StringLiteral",
+      "offset": 905,
+      "length": 20,
+      "value": "\"Video Output Queue\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "Array",
+      "offset": 976,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "StringLiteral",
+      "offset": 1100,
+      "length": 24,
+      "value": "\"Image Processing Queue\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "Array",
+      "offset": 1175,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "StringLiteral",
+      "offset": 1448,
+      "length": 20,
+      "value": "\"Depth Output Queue\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "Array",
+      "offset": 1519,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1753,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1798,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1831,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1868,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1905,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2092,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2305,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2327,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2466,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2537,
+      "length": 4,
+      "value": "0.75"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2545,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2551,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2570,
+      "length": 4,
+      "value": "0.75"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2593,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2631,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2637,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2655,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2675,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2826,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3104,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3126,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3265,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3430,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3739,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4192,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4356,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4578,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "StringLiteral",
+      "offset": 5541,
+      "length": 27,
+      "value": "\"No suitable camera found.\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "StringLiteral",
+      "offset": 5993,
+      "length": 27,
+      "value": "\"No suitable camera found.\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6562,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6708,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6912,
+      "length": 3,
+      "value": "480"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6978,
+      "length": 3,
+      "value": "640"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8412,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8558,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8762,
+      "length": 3,
+      "value": "480"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8828,
+      "length": 3,
+      "value": "640"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9380,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9517,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10617,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10641,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11891,
+      "length": 4,
+      "value": "1108"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12070,
+      "length": 4,
+      "value": "1108"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "FloatLiteral",
+      "offset": 14376,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14470,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "FloatLiteral",
+      "offset": 14512,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14608,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "FloatLiteral",
+      "offset": 14648,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14740,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14792,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14866,
+      "length": 2,
+      "value": "90"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "FloatLiteral",
+      "offset": 15612,
+      "length": 4,
+      "value": "0.55"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "FloatLiteral",
+      "offset": 15619,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "FloatLiteral",
+      "offset": 15668,
+      "length": 4,
+      "value": "0.95"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "FloatLiteral",
+      "offset": 15675,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16112,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16246,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16848,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17609,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17639,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17778,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17833,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17866,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18005,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18239,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18572,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18665,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18721,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18733,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18800,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18927,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18983,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18997,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Presentation\/Face detection\/FacialGestureCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19064,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Capture\/Core\/GtsCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 233,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Capture\/Core\/GtsCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 278,
+      "length": 4,
+      "value": "1001"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/gts-ios-sdk\/GtsMyId\/Capture\/Core\/GtsCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 328,
+      "length": 4,
+      "value": "1002"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/GtsMyId-fysjcvjuszjpbiffizcrcmcopjds\/Build\/Intermediates.noindex\/ArchiveIntermediates\/GtsMyId\/IntermediateBuildFilesPath\/GtsMyId.build\/Release-iphoneos\/GtsMyId.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 737,
+      "length": 15,
+      "value": "\"gts_icon_back\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/GtsMyId-fysjcvjuszjpbiffizcrcmcopjds\/Build\/Intermediates.noindex\/ArchiveIntermediates\/GtsMyId\/IntermediateBuildFilesPath\/GtsMyId.build\/Release-iphoneos\/GtsMyId.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 888,
+      "length": 16,
+      "value": "\"gts_icon_check\""
+    }
+  ]
+}

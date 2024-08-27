@@ -1,0 +1,11 @@
+framework module GtsMyId {
+  umbrella header "GtsMyId.h"
+  export *
+
+  module * { export * }
+}
+
+module GtsMyId.Swift {
+  header "GtsMyId-Swift.h"
+  requires objc
+}
