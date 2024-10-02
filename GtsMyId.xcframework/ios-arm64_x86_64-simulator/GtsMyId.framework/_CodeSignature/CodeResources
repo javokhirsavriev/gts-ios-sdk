@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		qjBtqJU5bhjLRDwACYSGIA/lZkM=
+		LMnyVWVBhSlG1YlPPhnDrfTWLkk=
 		</data>
 		<key>Headers/GtsMyId-Swift.h</key>
 		<data>
-		cfbq88XBIrkUbdifUGfKvhA/kHs=
+		AZbAwKtVGYcafCXas41R+a/lcM4=
 		</data>
 		<key>Headers/GtsMyId.h</key>
 		<data>
@@ -20,49 +20,65 @@
 		<data>
 		9fdJpCYR1a9KD/lhiEetYlsEi+0=
 		</data>
+		<key>LICENSE</key>
+		<data>
+		viPPNo04o63+rU31VZuj755Y9PY=
+		</data>
 		<key>Modules/GtsMyId.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		DyFmAy8h6N+Uub5onD9IwZAsnFI=
+		m99DZDEdfyU5MpP2q3XkPEkifWE=
 		</data>
 		<key>Modules/GtsMyId.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ZbZ7xVnakTy/obouWhyrFqE5vFw=
+		ojsO/5bcGj4fNL/vZBNLi5i+1Eg=
 		</data>
 		<key>Modules/GtsMyId.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		GxsMSU0bT4Vf1hwC/MpPucqmtqk=
+		tbZCbD2AszNSWEqgeEYbjpsX3go=
 		</data>
 		<key>Modules/GtsMyId.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ZbZ7xVnakTy/obouWhyrFqE5vFw=
+		ojsO/5bcGj4fNL/vZBNLi5i+1Eg=
 		</data>
 		<key>Modules/GtsMyId.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ZHBHTFPZBoTm9LZ1/ls2mQeGgvY=
+		94ejWLiQa5LZcqsyHqmtwhzbb44=
 		</data>
 		<key>Modules/GtsMyId.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		DyFmAy8h6N+Uub5onD9IwZAsnFI=
+		m99DZDEdfyU5MpP2q3XkPEkifWE=
 		</data>
 		<key>Modules/GtsMyId.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		aQ1qpoijWrnM+CpRxiGVI5S+vYE=
+		ES/zSa2iPAxGkI9oAzQ2nXKw/tk=
 		</data>
 		<key>Modules/GtsMyId.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		pHT+481/tlfKJO8kxXGvGKo2Y5s=
+		m9R2oAuiOJmpAB49p1nPcqJtCXc=
 		</data>
 		<key>Modules/GtsMyId.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		aQ1qpoijWrnM+CpRxiGVI5S+vYE=
+		ES/zSa2iPAxGkI9oAzQ2nXKw/tk=
 		</data>
 		<key>Modules/GtsMyId.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AbXP8xrPBAw1zjIMjNdW4m/uMaE=
+		uoSxdLGaUnYRiWkaq4KWbdKJ+KA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		JNTAh2+r8jhrv6heH1oRcLGfeZs=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		sdNbODBP/hqqAEXPxMAr/fmPM98=
+		</data>
+		<key>README.md</key>
+		<data>
+		STWmh3jY7e1h5v0NWoGNgiDfGQs=
+		</data>
+		<key>progress.json</key>
+		<data>
+		7Ilf9kBKOlUTyC503WSx98wLBmk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -71,14 +87,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PUhOa607X3L66oCpX+k9KxZzYe/1P0hWObG+PjaYrb0=
+			Y42V8PIfIlmKXSE2t4apZKzXrtcJuw9VXLIsveNzb8k=
 			</data>
 		</dict>
 		<key>Headers/GtsMyId-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tRGaQ/6mIGGPqS8dARuIiGimJmR2UxOcfK6ylevFcLI=
+			zXGtp0PmW15siLexLhrlPkAwhRBY0JFslxLHakcDNGs=
 			</data>
 		</dict>
 		<key>Headers/GtsMyId.h</key>
@@ -88,74 +104,81 @@
 			U9UyZ8/W3PjcoMFLy++yBSFkeuGoyrx6+VdREZAd9NE=
 			</data>
 		</dict>
+		<key>LICENSE</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jZ0aTtzLPUvgkinpl4r0yEzyZgZxB+eIxExJE7V/3V8=
+			</data>
+		</dict>
 		<key>Modules/GtsMyId.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/ZfUXYz2ocWq8bziD0Fa77rvQi/aCPiqRCGw8We6+r0=
+			aZmQAGBJ8NSXq2DLF0Phn63yipWMCevssRTJEydnyY4=
 			</data>
 		</dict>
 		<key>Modules/GtsMyId.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lCyxfrwSq6ipRsqcBHBUrjdBtCOO5/MXhRBCinM8bkY=
+			wly6JDdpEkUmeLPJc/v1Pb9zpaCxxnlu8xsi+upCIlc=
 			</data>
 		</dict>
 		<key>Modules/GtsMyId.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BRY0PdYL1sr/9CozBSH790xbjlCUn2PYfdPdkfFOaDY=
+			Gc2L4a04gsgh0x3fkmi4uViH4uoXPK3PggYMRMffWH0=
 			</data>
 		</dict>
 		<key>Modules/GtsMyId.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lCyxfrwSq6ipRsqcBHBUrjdBtCOO5/MXhRBCinM8bkY=
+			wly6JDdpEkUmeLPJc/v1Pb9zpaCxxnlu8xsi+upCIlc=
 			</data>
 		</dict>
 		<key>Modules/GtsMyId.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3LWHWiGC39F26Tnt4hJUrfWb2Z4I1SQ6HB9bvoaED7o=
+			55uJ/m0xO1hUIRFHO/99qWG27fZFyK03Hueh0RYEpxw=
 			</data>
 		</dict>
 		<key>Modules/GtsMyId.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/ZfUXYz2ocWq8bziD0Fa77rvQi/aCPiqRCGw8We6+r0=
+			aZmQAGBJ8NSXq2DLF0Phn63yipWMCevssRTJEydnyY4=
 			</data>
 		</dict>
 		<key>Modules/GtsMyId.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9Enpxl7qzMJ4agKRN5raxZrl9bwHTQjSgMCxR71Qnzw=
+			dYdQSuLAvQALxzgunJwscGu66/yT+0f7041AklIg+G4=
 			</data>
 		</dict>
 		<key>Modules/GtsMyId.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			njC09RhWMh9+4+68bmjq/wgGwbbtY+zHdB9eBfHkJbM=
+			V0ZLO0OFuinOSW4IMIkf6dWyTY9MZWoSzupuZ7OGr7o=
 			</data>
 		</dict>
 		<key>Modules/GtsMyId.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9Enpxl7qzMJ4agKRN5raxZrl9bwHTQjSgMCxR71Qnzw=
+			dYdQSuLAvQALxzgunJwscGu66/yT+0f7041AklIg+G4=
 			</data>
 		</dict>
 		<key>Modules/GtsMyId.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OBg3Qy/b+rUE1YbguGyAI2ScnjtytADxItAmBqJK8kU=
+			e/UYye/ogr3OvCxJTjdeSQbGZApN50+Ay9wuTo3UNvE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -163,6 +186,27 @@
 			<key>hash2</key>
 			<data>
 			hVtxz9yoSKtZVmpkzLM3Eu0jnTjne1YvjF0ffYi0/3M=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ddYHOyfmt49uvJUt7dwIdoQpim+runz8qUmmOsVIYKk=
+			</data>
+		</dict>
+		<key>README.md</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YAQGtTaEAczyxvYI+zf4oVB0FvkxyDh/2Nf2eNSxm+0=
+			</data>
+		</dict>
+		<key>progress.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tyFjZ0EtnHeXEhpDWSpfpvWedA2xi7cqgZ+3Shodj+g=
 			</data>
 		</dict>
 	</dict>

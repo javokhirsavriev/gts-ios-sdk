@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name               = "GtsMyId"
-  spec.version            = "1.0.1"
+  spec.version            = "1.0.2"
   spec.platform = :ios, '12.0'
   spec.ios.deployment_target = '12.0'
   spec.summary            = "GtsMyId Framework"
