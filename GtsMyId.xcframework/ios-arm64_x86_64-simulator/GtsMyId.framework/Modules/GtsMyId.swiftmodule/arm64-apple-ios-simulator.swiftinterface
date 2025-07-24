@@ -1,16 +1,14 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name GtsMyId
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name GtsMyId
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
-import CoreImage.CIFilterBuiltins
 import Combine
 import Compression
 import CoreFoundation
 import CoreGraphics
-import CoreImage
+import CoreML
 import CoreText
-import CoreVideo
 import DeveloperToolsSupport
 import Foundation
 @_exported import GtsMyId
@@ -23,32 +21,14 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import zlib
-@_inheritsConvenienceInitializers @objc public class GtsConfig : ObjectiveC.NSObject {
-  @objc public var locale: GtsMyId.GtsLocale
-  @objc public var cameraSelector: GtsMyId.GtsCameraSelector
-  @objc public var presentationStyle: GtsMyId.GtsPresentationStyle
-  @objc public var organizationDetails: GtsMyId.GtsOrganizationDetails?
-  @objc public var appearance: GtsMyId.GtsAppearance?
-  @objc override dynamic public init()
-  @objc deinit
-}
-@objc public enum GtsLocale : Swift.Int {
-  case Kyrgyz = 0
-  case English
-  case Russian
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
 infix operator +| : DefaultPrecedence
 infix operator +- : DefaultPrecedence
 extension Foundation.Bundle : @unchecked Swift.Sendable {
 }
-@_inheritsConvenienceInitializers @objc public class GtsException : ObjectiveC.NSObject {
-  @objc public var message: Swift.String?
-  @objc public var code: Swift.String?
+@_inheritsConvenienceInitializers @objc public class GtsAppearance : ObjectiveC.NSObject {
+  @objc public var colorPrimary: UIKit.UIColor?
+  @objc public var colorSuccess: UIKit.UIColor?
+  @objc public var colorError: UIKit.UIColor?
   @objc override dynamic public init()
   @objc deinit
 }
@@ -61,34 +41,15 @@ extension Foundation.Bundle : @unchecked Swift.Sendable {
     get
   }
 }
-@_inheritsConvenienceInitializers @objc public class GtsOrganizationDetails : ObjectiveC.NSObject {
-  @objc public var phoneNumber: Swift.String?
-  @objc public var logo: UIKit.UIImage?
-  @objc override dynamic public init()
-  @objc deinit
-}
-@_inheritsConvenienceInitializers @objc public class GtsAppearance : ObjectiveC.NSObject {
-  @objc public var primaryColor: UIKit.UIColor?
-  @objc public var successColor: UIKit.UIColor?
-  @objc public var errorColor: UIKit.UIColor?
-  @objc override dynamic public init()
-  @objc deinit
-}
-@objc public protocol GtsClientDelegate {
-  @objc func onCompletion(result: GtsMyId.GtsResult)
-  @objc func onFailure(exception: GtsMyId.GtsException)
-  @objc func onCancelled()
-}
-@_inheritsConvenienceInitializers @objc public class GtsResult : ObjectiveC.NSObject {
-  @objc public var image: UIKit.UIImage?
-  @objc override dynamic public init()
-  @objc deinit
-}
-@_inheritsConvenienceInitializers @objc public class GtsClient : ObjectiveC.NSObject {
-  @objc public class func start(withConfig config: GtsMyId.GtsConfig, withDelegate delegate: any GtsMyId.GtsClientDelegate)
-  @objc public class func run(withConfig config: GtsMyId.GtsConfig, withDelegate delegate: any GtsMyId.GtsClientDelegate) -> UIKit.UIViewController
-  @objc override dynamic public init()
-  @objc deinit
+@objc public enum GtsLocale : Swift.Int {
+  case Kyrgyz = 0
+  case English
+  case Russian
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
 }
 @objc public enum GtsPresentationStyle : Swift.Int {
   case Full = 0
@@ -99,12 +60,43 @@ extension Foundation.Bundle : @unchecked Swift.Sendable {
     get
   }
 }
-extension GtsMyId.GtsLocale : Swift.Equatable {}
-extension GtsMyId.GtsLocale : Swift.Hashable {}
-extension GtsMyId.GtsLocale : Swift.RawRepresentable {}
+@_inheritsConvenienceInitializers @objc public class GtsClient : ObjectiveC.NSObject {
+  @objc public class func start(withConfig config: GtsMyId.GtsConfig, withDelegate delegate: any GtsMyId.GtsClientDelegate)
+  @objc public class func buildViewController(withConfig config: GtsMyId.GtsConfig, withDelegate delegate: any GtsMyId.GtsClientDelegate, showCancelButton: Swift.Bool = true, shouldDismiss: Swift.Bool = false) -> UIKit.UINavigationController
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public protocol GtsClientDelegate {
+  @objc func onCompletion(result: GtsMyId.GtsResult)
+  @objc func onFailure(exception: GtsMyId.GtsException)
+  @objc func onCancelled()
+}
+@_inheritsConvenienceInitializers @objc public class GtsConfig : ObjectiveC.NSObject {
+  @objc public var locale: GtsMyId.GtsLocale
+  @objc public var cameraSelector: GtsMyId.GtsCameraSelector
+  @objc public var presentationStyle: GtsMyId.GtsPresentationStyle
+  @objc public var appearance: GtsMyId.GtsAppearance?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public class GtsException : ObjectiveC.NSObject {
+  @objc public var message: Swift.String
+  @objc public var code: Swift.Int
+  public init(message: Swift.String, code: Swift.Int)
+  @objc deinit
+}
+@objc public class GtsResult : ObjectiveC.NSObject {
+  @objc public var image: UIKit.UIImage
+  @objc public var isFaceOccluded: Swift.Bool
+  public init(image: UIKit.UIImage, isFaceOccluded: Swift.Bool)
+  @objc deinit
+}
 extension GtsMyId.GtsCameraSelector : Swift.Equatable {}
 extension GtsMyId.GtsCameraSelector : Swift.Hashable {}
 extension GtsMyId.GtsCameraSelector : Swift.RawRepresentable {}
+extension GtsMyId.GtsLocale : Swift.Equatable {}
+extension GtsMyId.GtsLocale : Swift.Hashable {}
+extension GtsMyId.GtsLocale : Swift.RawRepresentable {}
 extension GtsMyId.GtsPresentationStyle : Swift.Equatable {}
 extension GtsMyId.GtsPresentationStyle : Swift.Hashable {}
 extension GtsMyId.GtsPresentationStyle : Swift.RawRepresentable {}
