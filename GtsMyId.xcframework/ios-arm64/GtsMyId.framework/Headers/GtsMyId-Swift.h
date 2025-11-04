@@ -329,12 +329,20 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 @class UIColor;
+@class NSString;
+@class UIImage;
 
 SWIFT_CLASS("_TtC7GtsMyId13GtsAppearance")
 @interface GtsAppearance : NSObject
 @property (nonatomic, strong) UIColor * _Nullable colorPrimary;
 @property (nonatomic, strong) UIColor * _Nullable colorSuccess;
 @property (nonatomic, strong) UIColor * _Nullable colorError;
+@property (nonatomic, strong) UIColor * _Nullable colorInstructionBackground;
+@property (nonatomic, strong) UIColor * _Nullable colorInstructionForeground;
+@property (nonatomic, strong) UIColor * _Nullable colorInstructionStroke;
+@property (nonatomic, copy) NSString * _Nullable instructionRussian;
+@property (nonatomic, copy) NSString * _Nullable instructionKyrgyz;
+@property (nonatomic, strong) UIImage * _Nullable instructionImageInfo;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -376,7 +384,6 @@ SWIFT_CLASS("_TtC7GtsMyId9GtsConfig")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSString;
 
 SWIFT_CLASS("_TtC7GtsMyId12GtsException")
 @interface GtsException : NSObject
@@ -397,7 +404,6 @@ typedef SWIFT_ENUM(NSInteger, GtsPresentationStyle, open) {
   GtsPresentationStyleSheet = 1,
 };
 
-@class UIImage;
 
 SWIFT_CLASS("_TtC7GtsMyId9GtsResult")
 @interface GtsResult : NSObject

@@ -21,14 +21,16 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import zlib
-infix operator +| : DefaultPrecedence
-infix operator +- : DefaultPrecedence
-extension Foundation.Bundle : @unchecked Swift.Sendable {
-}
 @_inheritsConvenienceInitializers @objc public class GtsAppearance : ObjectiveC.NSObject {
   @objc public var colorPrimary: UIKit.UIColor?
   @objc public var colorSuccess: UIKit.UIColor?
   @objc public var colorError: UIKit.UIColor?
+  @objc public var colorInstructionBackground: UIKit.UIColor?
+  @objc public var colorInstructionForeground: UIKit.UIColor?
+  @objc public var colorInstructionStroke: UIKit.UIColor?
+  @objc public var instructionRussian: Swift.String?
+  @objc public var instructionKyrgyz: Swift.String?
+  @objc public var instructionImageInfo: UIKit.UIImage?
   @objc override dynamic public init()
   @objc deinit
 }
@@ -41,6 +43,10 @@ extension Foundation.Bundle : @unchecked Swift.Sendable {
     get
   }
 }
+extension Foundation.Bundle : @unchecked Swift.Sendable {
+}
+infix operator +| : DefaultPrecedence
+infix operator +- : DefaultPrecedence
 @objc public enum GtsLocale : Swift.Int {
   case Kyrgyz = 0
   case English
