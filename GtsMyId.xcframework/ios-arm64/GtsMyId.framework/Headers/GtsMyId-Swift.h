@@ -340,8 +340,7 @@ SWIFT_CLASS("_TtC7GtsMyId13GtsAppearance")
 @property (nonatomic, strong) UIColor * _Nullable colorInstructionBackground;
 @property (nonatomic, strong) UIColor * _Nullable colorInstructionForeground;
 @property (nonatomic, strong) UIColor * _Nullable colorInstructionStroke;
-@property (nonatomic, copy) NSString * _Nullable instructionRussian;
-@property (nonatomic, copy) NSString * _Nullable instructionKyrgyz;
+@property (nonatomic, copy) NSString * _Nullable instructionText;
 @property (nonatomic, strong) UIImage * _Nullable instructionImageInfo;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end

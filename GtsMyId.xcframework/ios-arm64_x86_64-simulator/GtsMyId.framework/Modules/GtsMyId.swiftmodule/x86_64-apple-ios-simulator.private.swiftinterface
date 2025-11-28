@@ -28,8 +28,7 @@ import zlib
   @objc public var colorInstructionBackground: UIKit.UIColor?
   @objc public var colorInstructionForeground: UIKit.UIColor?
   @objc public var colorInstructionStroke: UIKit.UIColor?
-  @objc public var instructionRussian: Swift.String?
-  @objc public var instructionKyrgyz: Swift.String?
+  @objc public var instructionText: Swift.String?
   @objc public var instructionImageInfo: UIKit.UIImage?
   @objc override dynamic public init()
   @objc deinit
