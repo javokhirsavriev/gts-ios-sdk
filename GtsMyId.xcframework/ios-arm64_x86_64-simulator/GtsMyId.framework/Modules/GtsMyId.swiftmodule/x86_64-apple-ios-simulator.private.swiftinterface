@@ -67,7 +67,7 @@ infix operator +- : DefaultPrecedence
 }
 @_inheritsConvenienceInitializers @objc public class GtsClient : ObjectiveC.NSObject {
   @objc public class func start(withConfig config: GtsMyId.GtsConfig, withDelegate delegate: any GtsMyId.GtsClientDelegate)
-  @objc public class func buildViewController(withConfig config: GtsMyId.GtsConfig, withDelegate delegate: any GtsMyId.GtsClientDelegate, showCancelButton: Swift.Bool = true, shouldDismiss: Swift.Bool = false) -> UIKit.UINavigationController
+  @objc public class func buildViewController(withConfig config: GtsMyId.GtsConfig, withDelegate delegate: any GtsMyId.GtsClientDelegate, showCancelButton: Swift.Bool = true, shouldDismiss: Swift.Bool = false) -> UIKit.UIViewController
   @objc override dynamic public init()
   @objc deinit
 }

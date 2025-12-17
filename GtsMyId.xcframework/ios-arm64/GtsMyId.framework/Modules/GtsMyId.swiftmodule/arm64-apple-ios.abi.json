@@ -4082,9 +4082,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "UINavigationController",
-                "printedName": "UIKit.UINavigationController",
-                "usr": "c:objc(cs)UINavigationController"
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
               },
               {
                 "kind": "TypeNominal",
@@ -4115,7 +4115,7 @@
             ],
             "declKind": "Func",
             "usr": "c:@M@GtsMyId@objc(cs)GtsClient(cm)buildViewControllerWithConfig:withDelegate:showCancelButton:shouldDismiss:",
-            "mangledName": "$s7GtsMyId0A6ClientC19buildViewController10withConfig0H8Delegate16showCancelButton13shouldDismissSo012UINavigationG0CAA0aI0C_AA0adJ0_pS2btFZ",
+            "mangledName": "$s7GtsMyId0A6ClientC19buildViewController10withConfig0H8Delegate16showCancelButton13shouldDismissSo06UIViewG0CAA0aI0C_AA0adJ0_pS2btFZ",
             "moduleName": "GtsMyId",
             "static": true,
             "objc_name": "buildViewControllerWithConfig:withDelegate:showCancelButton:shouldDismiss:",
@@ -13444,7 +13444,7 @@
     {
       "filePath": "\/Users\/javokhir\/Downloads\/gts-ios-sdk\/GtsMyId\/Capture\/GtsClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 3103,
+      "offset": 2692,
       "length": 5,
       "value": "false"
     },

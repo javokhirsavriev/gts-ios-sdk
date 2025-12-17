@@ -352,12 +352,12 @@ typedef SWIFT_ENUM(NSInteger, GtsCameraSelector, open) {
 
 @class GtsConfig;
 @protocol GtsClientDelegate;
-@class UINavigationController;
+@class UIViewController;
 
 SWIFT_CLASS("_TtC7GtsMyId9GtsClient")
 @interface GtsClient : NSObject
 + (void)startWithConfig:(GtsConfig * _Nonnull)config withDelegate:(id <GtsClientDelegate> _Nonnull)delegate;
-+ (UINavigationController * _Nonnull)buildViewControllerWithConfig:(GtsConfig * _Nonnull)config withDelegate:(id <GtsClientDelegate> _Nonnull)delegate showCancelButton:(BOOL)showCancelButton shouldDismiss:(BOOL)shouldDismiss SWIFT_WARN_UNUSED_RESULT;
++ (UIViewController * _Nonnull)buildViewControllerWithConfig:(GtsConfig * _Nonnull)config withDelegate:(id <GtsClientDelegate> _Nonnull)delegate showCancelButton:(BOOL)showCancelButton shouldDismiss:(BOOL)shouldDismiss SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -786,12 +786,12 @@ typedef SWIFT_ENUM(NSInteger, GtsCameraSelector, open) {
 
 @class GtsConfig;
 @protocol GtsClientDelegate;
-@class UINavigationController;
+@class UIViewController;
 
 SWIFT_CLASS("_TtC7GtsMyId9GtsClient")
 @interface GtsClient : NSObject
 + (void)startWithConfig:(GtsConfig * _Nonnull)config withDelegate:(id <GtsClientDelegate> _Nonnull)delegate;
-+ (UINavigationController * _Nonnull)buildViewControllerWithConfig:(GtsConfig * _Nonnull)config withDelegate:(id <GtsClientDelegate> _Nonnull)delegate showCancelButton:(BOOL)showCancelButton shouldDismiss:(BOOL)shouldDismiss SWIFT_WARN_UNUSED_RESULT;
++ (UIViewController * _Nonnull)buildViewControllerWithConfig:(GtsConfig * _Nonnull)config withDelegate:(id <GtsClientDelegate> _Nonnull)delegate showCancelButton:(BOOL)showCancelButton shouldDismiss:(BOOL)shouldDismiss SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
