@@ -1,18 +1,12 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name GtsMyId
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name GtsMyId
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import AVFoundation
-import Combine
-import Compression
-import CoreFoundation
-import CoreGraphics
 import CoreML
-import CoreText
 import DeveloperToolsSupport
 import Foundation
 @_exported import GtsMyId
-import QuartzCore
 import Swift
 import SwiftUI
 import UIKit
@@ -20,7 +14,6 @@ import Vision
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-import zlib
 @_inheritsConvenienceInitializers @objc public class GtsAppearance : ObjectiveC.NSObject {
   @objc public var colorPrimary: UIKit.UIColor?
   @objc public var colorSuccess: UIKit.UIColor?
@@ -36,21 +29,21 @@ import zlib
 @objc public enum GtsCameraSelector : Swift.Int {
   case Front = 0
   case Back
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
 }
-extension Foundation.Bundle : @unchecked Swift.Sendable {
-}
-infix operator +| : DefaultPrecedence
-infix operator +- : DefaultPrecedence
 @objc public enum GtsLocale : Swift.Int {
   case Kyrgyz = 0
   case English
   case Russian
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -59,7 +52,9 @@ infix operator +- : DefaultPrecedence
 @objc public enum GtsPresentationStyle : Swift.Int {
   case Full = 0
   case Sheet
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
